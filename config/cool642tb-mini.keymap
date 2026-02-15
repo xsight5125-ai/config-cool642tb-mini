@@ -47,7 +47,7 @@
 &kp Q      &kp W   &kp E       &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S   &kp D       &kp F             &kp G  &kp LC(Y)             &kp ESCAPE       &kp H        &kp J  &kp K      &kp L    &mt LCTRL SEMICOLON
 &kp Z      &kp X   &kp C       &kp V             &kp B  &mo 5                 &kp ESC          &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp MINUS  &kp AT  &kp LS(N1)  &lt 3 LANGUAGE_2  &mo 4  &mt LSHIFT SPACE      &mt RSHFT ENTER  &lt 1 LANG1                             &kp ESCAPE
+&kp MINUS  &kp AT  &kp LS(N1)  &lt 3 LANGUAGE_2  &mo 4  &mt LSHIFT SPACE      &mt RSHFT ENTER  &lt 1 LANG1                             &mt LS(LCTRL) ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
