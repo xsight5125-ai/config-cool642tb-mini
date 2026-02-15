@@ -66,7 +66,7 @@
 &kp MINUS  &kp AT  &kp LS(N1)  &lt 3 LANGUAGE_2  &mo 4  &mt LSHIFT SPACE      &mt LEFT_WIN ENTER  &lt 1 LANG1                             &mt LS(LCTRL) ESCAPE
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         FUNCTION {
@@ -107,6 +107,8 @@
 &kp LEFT_SHIFT  &kp N1        &kp N2  &kp N3  &kp DELETE     &trans          &trans        &kp HOME      &kp PAGE_DOWN  &kp PAGE_DOWN  &kp END    &kp LEFT_SHIFT
 &kp LEFT_ALT    &kp NUMBER_0  &trans  &trans  &trans         &trans          &kp LEFT_WIN  &kp LEFT_ALT                                           &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp TAB LS(TAB)>;
         };
 
         SCROLL {
