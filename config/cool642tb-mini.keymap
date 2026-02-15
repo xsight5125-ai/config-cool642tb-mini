@@ -75,7 +75,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                              &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F1  &kp F2  &trans  &trans  &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &trans  &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans                          &trans
             >;
 
