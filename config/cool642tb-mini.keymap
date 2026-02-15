@@ -44,10 +44,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp W   &kp E       &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A         &kp S   &kp D       &kp F             &kp G  &kp LC(Y)             &kp ESCAPE       &kp H        &kp J  &kp K      &kp L    &mt LCTRL SEMICOLON
-&kp Z         &kp X   &kp C       &kp V             &kp B  &mo 5                 &kp ESC          &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp KP_MINUS  &kp AT  &kp LS(N1)  &lt 3 LANGUAGE_2  &mo 4  &mt LSHIFT SPACE      &mt RSHFT ENTER  &lt 1 LANG1                             &kp ESCAPE
+&kp Q      &kp W   &kp E       &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S   &kp D       &kp F             &kp G  &kp LC(Y)             &kp ESCAPE       &kp H        &kp J  &kp K      &kp L    &mt LCTRL SEMICOLON
+&kp Z      &kp X   &kp C       &kp V             &kp B  &mo 5                 &kp ESC          &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
+&kp MINUS  &kp AT  &kp LS(N1)  &lt 3 LANGUAGE_2  &mo 4  &mt LSHIFT SPACE      &mt RSHFT ENTER  &lt 1 LANG1                             &kp ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -55,7 +55,7 @@
 
         FUNCTION {
             bindings = <
-&kp TAB         &kp N7        &kp N8        &kp N9        &kp RA(F4)                                &kp KP_PLUS  &kp KP_MINUS   &kp KP_ASTERISK  &kp SLASH  &kp KP_EQUAL
+&kp TAB         &kp N7        &kp N8        &kp N9        &kp RA(F4)                                &kp KP_PLUS  &kp KP_MINUS   &kp KP_ASTERISK  &kp SLASH  &kp EQUAL
 &kp LCTRL       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BACKSPACE  &kp UNDER        &kp HOME  &kp LEFT     &kp DOWN       &kp UP_ARROW     &kp RIGHT  &kp RCTRL
 &kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DELETE     &trans           &trans    &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP      &kp END    &kp LEFT_SHIFT
 &kp LEFT_ALT    &kp NUMBER_0  &trans        &kp F2        &kp ENTER      &kp LS(F10)      &trans    &trans                                                  &kp F11
