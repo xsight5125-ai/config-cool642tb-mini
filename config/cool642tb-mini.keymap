@@ -71,7 +71,7 @@
 
         FUNCTION {
             bindings = <
-&kp TAB         &kp N7        &kp N8        &kp N9        &kp RA(F4)                                     &kp KP_PLUS  &kp KP_MINUS   &kp KP_ASTERISK  &kp SLASH  &kp CARET
+&kp TAB         &kp N7        &kp N8        &kp N9        &kp RA(F4)                                     &kp KP_PLUS  &kp KP_MINUS   &kp KP_ASTERISK  &kp SLASH  &kp LS(MINUS)
 &kp LCTRL       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BACKSPACE       &kp UNDER        &kp HOME  &kp LEFT     &kp DOWN       &kp UP_ARROW     &kp RIGHT  &kp RCTRL
 &kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DELETE          &trans           &trans    &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP      &kp END    &kp LEFT_SHIFT
 &kp LEFT_ALT    &kp NUMBER_0  &trans        &kp F2        &mt LEFT_WIN ENTER  &kp LS(F10)      &trans    &trans                                                  &kp F11
@@ -91,10 +91,10 @@
 
         ARROW {
             bindings = <
-&kp TAB         &kp F7  &kp F8  &kp F9  &kp F10                              &trans     &kp LS(N8)      &kp LS(N9)        &trans    &trans
-&kp LCTRL       &kp F4  &kp F5  &kp F6  &kp F11  &trans              &trans  &kp MINUS  &kp APOSTROPHE  &kp BACKSLASH     &kp PIPE  &trans
-&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &bt BT_CLR_ALL      &trans  &trans     &kp AT_SIGN     &kp LEFT_BRACKET  &trans    &trans
-&kp LEFT_ALT    &trans  &trans  &trans  &trans   &bt BT_CLR          &Pass   &id                                                    &trans
+&kp TAB         &kp F7  &kp F8  &kp F9  &kp F10                              &trans           &kp LS(N8)      &kp LS(N9)            &trans                    &trans
+&kp LCTRL       &kp F4  &kp F5  &kp F6  &kp F11  &trans              &trans  &kp NON_US_HASH  &kp APOSTROPHE  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &trans
+&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &bt BT_CLR_ALL      &trans  &trans           &kp AT_SIGN     &kp BACKSLASH         &trans                    &trans
+&kp LEFT_ALT    &trans  &trans  &trans  &trans   &bt BT_CLR          &Pass   &id                                                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -102,7 +102,7 @@
 
         MB {
             bindings = <
-&kp TAB         &kp N7        &kp N8  &kp N9  &kp LA(F4)                                   &kp KP_PLUS   &kp KP_MINUS   &kp ASTRK      &kp SLASH  &kp CARET
+&kp TAB         &kp N7        &kp N8  &kp N9  &kp LA(F4)                                   &kp KP_PLUS   &kp KP_MINUS   &kp ASTRK      &kp SLASH  &kp MINUS
 &kp LCTRL       &kp N4        &kp N5  &kp N6  &kp BACKSPACE  &kp LS(LT)      &kp LS(GT)    &mkp MB4      &mkp MB1       &mkp MB3       &mkp MB2   &mt LCTRL LA(RIGHT)
 &kp LEFT_SHIFT  &kp N1        &kp N2  &kp N3  &kp DELETE     &trans          &trans        &kp HOME      &kp PAGE_DOWN  &kp PAGE_DOWN  &kp END    &kp LEFT_SHIFT
 &kp LEFT_ALT    &kp NUMBER_0  &trans  &trans  &trans         &trans          &kp LEFT_WIN  &kp LEFT_ALT                                           &trans
